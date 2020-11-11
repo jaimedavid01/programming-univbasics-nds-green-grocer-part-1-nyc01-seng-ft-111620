@@ -24,7 +24,6 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
-def consolidate_cart(cart)
   index = 0
   new_cart = []
   
@@ -46,6 +45,7 @@ def consolidate_cart(cart)
   end
   new_cart
 end
+
 #   new_cart = {}
   
 # cart.each do |hashes|
